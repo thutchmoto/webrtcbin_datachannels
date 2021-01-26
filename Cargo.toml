@@ -1,0 +1,17 @@
+[package]
+name = "webrtcbin_datachannels"
+version = "0.1.0"
+authors = ["trey"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.38"
+env_logger = "0.8.2"
+crossbeam-channel = "0.5.0"
+glib = "0.10.3"
+gstreamer = "0.16.5"
+gstreamer-sdp = "0.16.6"
+gstreamer-webrtc = { version = "0.16.5", features = ["v1_18"] }
+log = "0.4.13"
